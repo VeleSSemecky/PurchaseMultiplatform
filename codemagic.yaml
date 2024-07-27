@@ -12,9 +12,6 @@ workflows:
         - pattern: "*"
           include: false
     environment:
-      ios_signing:
-        distribution_type: development
-        bundle_identifier: com.veles.purchase
       vars:
         XCODE_PROJECT: "iosApp.xcodeproj" # <-- Put your xcode project name here
         XCODE_SCHEME: "iosApp" # <-- Put your bundle xcode scheme here
